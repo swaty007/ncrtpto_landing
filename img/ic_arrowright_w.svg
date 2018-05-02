@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="16px" viewBox="0 0 18 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_arrowright_w</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ncrypto-landing" transform="translate(-626.000000, -544.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="ic_arrowright_w" transform="translate(622.000000, 538.000000)">
+                <path d="M5,15 C4.44771525,15 4,14.5522847 4,14 C4,13.4477153 4.44771525,13 5,13 L21,13 C21.5522847,13 22,13.4477153 22,14 C22,14.5522847 21.5522847,15 21,15 L5,15 Z" id="Path-10"></path>
+                <path d="M13.7736908,8.18790438 C13.3831665,7.79738008 13.3831665,7.16421511 13.7736908,6.77369081 C14.1642151,6.38316652 14.7973801,6.38316652 15.1879044,6.77369081 L21.7071068,13.2928932 C22.0976311,13.6834175 22.0976311,14.3165825 21.7071068,14.7071068 L15.1879044,21.2263092 C14.7973801,21.6168335 14.1642151,21.6168335 13.7736908,21.2263092 C13.3831665,20.8357849 13.3831665,20.2026199 13.7736908,19.8120956 L19.5857864,14 L13.7736908,8.18790438 Z" id="Path-2"></path>
+            </g>
+        </g>
+    </g>
+</svg>

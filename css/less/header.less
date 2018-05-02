@@ -1,0 +1,180 @@
+.header {
+  nav.navbar {
+    background-color: fade(@color-2,86%);
+    margin-bottom: 0;
+    border: none;
+    min-height: 70px;
+    border-radius: 0;
+    .container {
+      position: relative;
+    }
+    &.opened {
+      background-color: @color-2;
+    }
+    @media (min-width: 768px) and (max-width: 991px) {
+      .navbar-collapse.collapse {
+        display: none !important;
+      }
+      .navbar-collapse.collapse.in {
+        display: block !important;
+      }
+      .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+      }
+      .navbar-header {
+        float:none;
+      }
+      .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+        &>li {
+          float: none;
+        }
+      }
+    }
+    .navbar-container {
+      padding-right: 30px;
+      padding-left: 30px;
+    }
+    @media (min-width: 992px) {
+      .navbar-collapse {
+        line-height: 0;
+      }
+      .navbar-nav {
+        display: inline-block;
+        &:first-child {
+          float:none;
+        }
+      }
+    }
+    .navbar-collapse {
+      max-height: 100vh;
+      border-top: none;
+      box-shadow: none;
+    }
+    .navbar-header {
+      text-align: center;
+      @media(max-width:991px) {
+        margin-left: -15px;
+        margin-right: -15px;
+        position: relative;
+      }
+      .navbar-brand {
+        @media(max-width:991px) {
+          display: none;
+        }
+        height: auto;
+        outline: none;
+        padding: 0;
+        line-height: 70px;
+        float: none;
+        display: inline-block;
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+      img {
+        width: 100%;
+        display: inline-block;
+      }
+
+      .navbar-toggle {
+        height: 34px;
+        width: 34px;
+        cursor: pointer;
+        text-decoration: none;
+        outline: none;
+        margin: 0;
+        position: absolute;
+        left: 0;
+        top: 18px;
+        z-index: 5;
+        padding: 0;
+        &:before {
+          background-image: url(../../img/ic_menu.svg);
+          content: "";
+          width: 30px;
+          height: 30px;
+          display: block;
+          background-size: auto 28px;
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+        &:not(.collapsed):before {
+          background-image: url(../../img/ic_closewhite.svg);
+        }
+      }
+    }
+    .nav-lang li a {
+      margin: 0!important;
+    }
+    ul {
+      li {
+        @media(min-width:992px) {
+          line-height: 70px;
+        }
+        .gradient-btn {
+          margin-top: 40px;
+        }
+        .gradient-btn-transparent {
+          margin-bottom: 20px;
+        }
+        .logo-li {
+          margin-top: 13px;
+          margin-bottom: 35px;
+          img {
+            width: 35px;
+          }
+        }
+        a.scroll {
+          @media(max-width:991px) {
+            margin-top: 10px;
+            margin-bottom: 10px;
+          }
+          color: @color-1;
+          font-family: @font-1;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 18px;
+          //transition: 0.3s all;
+          background-color: transparent;
+          padding-top: 5px;
+          padding-bottom: 5px;
+          vertical-align: middle;
+          display: inline-block;
+          border-radius: 4px;
+          &.active,&:hover {
+            background: @color-bg;
+          }
+        }
+      }
+    }
+    .navbar-toggle:not(.collapsed) ~ .invest-btn {
+      display: none;
+    }
+    .invest-btn {
+      position: absolute;
+      top: 17px;
+      right: 5px;
+      background-color: @color-2;
+      color: @color-1;
+      font-family: @font-1;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 18px;
+      text-align: center;
+      padding: 8px 40px;
+      border-radius: 20px;
+      vertical-align: middle;
+      display: inline-block;
+      border: 1px solid fade(@color-1,30%);
+      text-decoration: none;
+      outline: none;
+      &:hover {
+        border-color: @color-2;
+        color: @color-1;
+        background: @color-bg;
+      }
+    }
+  }
+}

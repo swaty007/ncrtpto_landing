@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ncrypto-landing" transform="translate(-300.000000, -680.000000)" fill="#4D4D4D">
+            <g id="Group-5" transform="translate(200.000000, 680.000000)">
+                <path d="M100,15 C100,6.71572834 106.715728,0 115,0 C123.284272,0 130,6.71572834 130,15 C130,23.2842717 123.284272,30 115,30 C106.715728,30 100,23.2842717 100,15 Z M116.063472,23.3196729 L116.063472,15.158881 L118.316207,15.158881 L118.614744,12.3466269 L116.063472,12.3466269 L116.067299,10.9390667 C116.067299,10.2055875 116.13699,9.81257258 117.190478,9.81257258 L118.598796,9.81257258 L118.598796,7 L116.345742,7 C113.639461,7 112.68692,8.3642458 112.68692,10.6584782 L112.68692,12.3469454 L111,12.3469454 L111,15.1591995 L112.68692,15.1591995 L112.68692,23.3196729 L116.063472,23.3196729 Z" id="ic_facebook"></path>
+            </g>
+        </g>
+    </g>
+</svg>

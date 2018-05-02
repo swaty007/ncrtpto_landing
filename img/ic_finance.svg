@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="38px" viewBox="0 0 36 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_finance</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ncrypto-landing" transform="translate(-968.000000, -5377.000000)" fill="#000000">
+            <g id="ic_finance" transform="translate(962.000000, 5372.000000)">
+                <path d="M9.26666667,16.0666667 L38.7333333,16.0666667 L38.7333333,14.9968975 L24,8.19689755 L9.26666667,14.9968975 L9.26666667,16.0666667 Z M6.66666667,13.3333333 L24,5.33333333 L41.3333333,13.3333333 L41.3333333,18.6666667 L6.66666667,18.6666667 L6.66666667,13.3333333 Z" id="Rectangle-10" fill-rule="nonzero"></path>
+                <path d="M9.26666667,40.0666667 L38.7333333,40.0666667 L38.7333333,38.6 L9.26666667,38.6 L9.26666667,40.0666667 Z M6.66666667,36 L41.3333333,36 L41.3333333,42.6666667 L6.66666667,42.6666667 L6.66666667,36 Z" id="Rectangle-11" fill-rule="nonzero"></path>
+                <rect id="Rectangle-12" x="10.6666667" y="20" width="2.66666667" height="14.6666667"></rect>
+                <rect id="Rectangle-12" x="16" y="20" width="2.66666667" height="14.6666667"></rect>
+                <rect id="Rectangle-12" x="29.3333333" y="20" width="2.66666667" height="14.6666667"></rect>
+                <rect id="Rectangle-12" x="34.6666667" y="20" width="2.66666667" height="14.6666667"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

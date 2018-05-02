@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_tkexchange</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ncrypto-landing" transform="translate(-248.000000, -2189.000000)" fill="#000000">
+            <g id="Group-14" transform="translate(240.000000, 2183.000000)">
+                <g id="ic_tkexchange">
+                    <path d="M16.2005368,18.0024644 C16.9965284,21.9187334 20.0812666,25.0034716 23.9975356,25.7994632 C23.9991753,25.8661098 24,25.9329586 24,26 C24,30.418278 20.418278,34 16,34 C11.581722,34 8,30.418278 8,26 C8,21.581722 11.581722,18 16,18 C16.0670414,18 16.1338902,18.0008247 16.2005368,18.0024644 Z" id="Combined-Shape"></path>
+                    <path d="M26,24 C30.418278,24 34,20.418278 34,16 C34,11.581722 30.418278,8 26,8 C21.581722,8 18,11.581722 18,16 C18,20.418278 21.581722,24 26,24 Z M26,26 C20.4771525,26 16,21.5228475 16,16 C16,10.4771525 20.4771525,6 26,6 C31.5228475,6 36,10.4771525 36,16 C36,21.5228475 31.5228475,26 26,26 Z" id="Oval-9" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

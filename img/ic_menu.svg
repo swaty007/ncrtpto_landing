@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_menu</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="101.999998%" y2="100.999999%" id="linearGradient-1">
+            <stop stop-color="#3023AE" offset="0%"></stop>
+            <stop stop-color="#C86DD7" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="0.08-landing" transform="translate(-27.000000, -25.000000)" fill="url(#linearGradient-1)">
+            <g id="ic_menu" transform="translate(20.000000, 18.000000)">
+                <path d="M8,7 L26,7 C26.5522847,7 27,7.44771525 27,8 L27,10 C27,10.5522847 26.5522847,11 26,11 L8,11 C7.44771525,11 7,10.5522847 7,10 L7,8 C7,7.44771525 7.44771525,7 8,7 Z M8,15 L26,15 C26.5522847,15 27,15.4477153 27,16 L27,18 C27,18.5522847 26.5522847,19 26,19 L8,19 C7.44771525,19 7,18.5522847 7,18 L7,16 C7,15.4477153 7.44771525,15 8,15 Z M8,23 L26,23 C26.5522847,23 27,23.4477153 27,24 L27,26 C27,26.5522847 26.5522847,27 26,27 L8,27 C7.44771525,27 7,26.5522847 7,26 L7,24 C7,23.4477153 7.44771525,23 8,23 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

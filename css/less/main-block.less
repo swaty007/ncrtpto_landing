@@ -1,0 +1,199 @@
+.main-block {
+  padding-top: 130px;
+  padding-bottom: 70px;
+  background-color: @color-2;
+  @media(max-width:991px) {
+    text-align: center;
+  }
+  .logo-block {
+    margin-bottom: 20px;
+    img {
+      width: 35px;
+    }
+  }
+  .main-title {
+    color: @color-1;
+    font-family: @font-1;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 30px;
+    font-weight: normal;
+  }
+  .text {
+    margin-bottom: 40px;
+    color: @color-1;
+    font-family: @font-1;
+    font-size: 17px;
+    line-height: 20px;
+  }
+  .label-text {
+    color: fade(@color-1,60%);
+    font-family: @font-1;
+    font-size: 17px;
+    line-height: 20px;
+    margin-bottom: 6px;
+    margin-top: 50px;
+  }
+  .nav-social {
+    @media(max-width:991px) {
+      margin-bottom: 20px;
+      display: inline-block;
+      text-align: center;
+    }
+    li {
+      @media(max-width:991px) {
+        display: inline-block;
+        float: none;
+        margin-bottom: 20px;
+      }
+      border-radius: 4px;
+      &.active {
+        background-color: transparent!important;
+        a {
+          img {
+
+          }
+        }
+      }
+      a {
+        img {
+          width: 30px;
+          height: 30px;
+        }
+        padding: 0 10px;
+        background-color: transparent!important;
+        border-radius: 4px;
+      }
+    }
+  }
+  .white-block {
+    background-color: @color-1;
+    box-shadow: 0 14px 20px 0 rgba(0,0,0,0.16);
+    border-radius: 7px;
+    padding: 20px;
+    .white-title {
+      color: @color-2;
+      font-family: @font-1;
+      font-size: 22px;
+      font-weight: bold;
+      line-height: 26px;
+      margin-bottom: 4px;
+      text-align: left;
+    }
+    .sub-white-title {
+      color: fade(@color-2,40%);
+      font-family: @font-1;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 16px;
+    }
+    .timer {
+      color: @color-2;
+      font-family: @font-1;
+      font-size: 38px;
+      line-height: 44px;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      text-align: center;
+    }
+    .title-cur {
+      color: @color-2;
+      font-family: @font-1;
+      font-size: 25px;
+      font-weight: 500;
+      line-height: 30px;
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 2px;
+    }
+    .sub-text {
+      color: #4A4A4A;
+      font-family: @font-1;
+      font-size: 14px;
+      line-height: 16px;
+      text-align: center;
+      margin-bottom: 24px;
+    }
+    .text-main {
+      color: #9B9B9B;
+      font-family: @font-1;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 18px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .img-block {
+      margin-bottom: 24px;
+      text-align: center;
+      img {
+        width: 135px;
+        max-width: 100%;
+      }
+    }
+    .text-black {
+      color: @color-2;
+      font-family: @font-1;
+      font-size: 32px;
+      font-weight: bold;
+      line-height: 38px;
+      text-align: center;
+    }
+    .text-black-sub {
+      color: fade(@color-2,40%);
+      font-family: @font-1;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 15px;
+      text-transform: uppercase;
+      text-align: center;
+    }
+    .line-wrap {
+      margin-top: 23px;
+      .line {
+        width: 100%;
+        margin-bottom: 16px;
+        height: 8px;
+        background-color: #EDEDF0;
+        border-radius: 4px;
+        span {
+          border-radius: 4px;
+          background: @color-bg;
+          text-align: left;
+          height: 8px;
+          display: block;
+          position: relative;
+          &:after {
+            content: "";
+            box-sizing: border-box;
+            height: 19px;
+            width: 19px;
+            border: 1px solid @color-1;
+            background: @color-bg;
+            display: block;
+            border-radius: 30px;
+            position: absolute;
+            right: -1px;
+            top: -5.5px;
+          }
+        }
+      }
+      .line-text {
+        color: #4A4A4A;
+        font-family: @font-1;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 14px;
+        text-align: center;
+      }
+      .line-sub-text {
+        color: #9B9B9B;
+        font-family: @font-1;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+      }
+    }
+
+  }
+}

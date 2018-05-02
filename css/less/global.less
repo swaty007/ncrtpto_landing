@@ -1,0 +1,294 @@
+input[type="email"],input[type="text"],input[type="password"],textarea,.form-control {
+  border: 1px solid fade(@color-1,20%);
+  border-radius: 4px;
+  background-color: transparent;
+  font-family: @font-1;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  height: 40px;
+  color: @color-2;
+  padding: 10px;
+  width: 100%;
+  box-shadow: none!important;
+  &::placeholder {
+    color: fade(@color-1,30%);
+  }
+  &:focus {
+    border: 1px solid fade(@color-1,60%);
+    box-shadow: none;
+    background-color: @color-1;
+    color: @color-2;
+  }
+}
+select.form-control {
+  -moz-appearance: none!important;
+  appearance: none!important;
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
+  background-image: url(../../img/ic_selector_arrows.svg);
+  color: @color-2;
+  font-family: @font-1;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  text-decoration: none;
+  border:none;
+  box-shadow: none!important;
+  outline: none!important;
+  -webkit-appearance: none!important;
+}
+.form-main {
+  position: relative;
+  .submit-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 40px;
+    background: transparent;
+    border: none;
+    padding: 0 15px;
+    &:before {
+      content: "";
+      background-image: url(../../img/ic_arrowright_w.svg);
+      background-size: auto 20px;
+      width: 28px;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: block;
+      height: 40px;
+    }
+  }
+  input:focus ~ .submit-btn {
+    &:before {
+      background-image: url(../../img/ic_arrowmain_r.svg);
+    }
+  }
+}
+.how-it-works-1,.how-it-works-2,.how-it-works-3,.how-it-works-4,.how-it-works-6,.roadmap,.how-it-works-7,.legal-framework,.contact-us {
+  max-width: 1080px;
+  margin-right: auto;
+  margin-left: auto;
+  @media(min-width:1200px) {
+    max-width: 1200px;
+  }
+  .container {
+    @media (min-width: 1200px) {
+      //width: 970px;
+    }
+  }
+}
+
+.download-btn {
+  color: @color-1;
+  font-family: @font-1;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  padding: 8px 24px;
+  border: 1px solid fade(@color-1,30%);
+  border-radius: 23px;
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.gradient-btn {
+  color: @color-1;
+  font-family: @font-1;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 22px !important;
+  text-align: center;
+  padding: 11px 23px !important;
+  background: @color-bg;
+  border-radius: 23px;
+  text-decoration: none;
+  outline: none;
+  display: inline-block !important;
+  &:hover {
+    background: #EDEDF0;
+    color: @color-2;
+    text-decoration: none;
+  }
+}
+.gradient-btn-transparent {
+  background: @color-bg;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: @font-1;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 22px !important;
+  text-align: center;
+  padding: 11px 34px !important;
+  border-radius: 23px;
+  text-decoration: none;
+  outline: none;
+  display: inline-block !important;
+  position: relative !important;
+  z-index: 0;
+  &:hover {
+    -webkit-background-clip: unset;
+    -webkit-text-fill-color: unset;
+    color: @color-1;
+    text-decoration: none;
+    .gradient-text {
+      -webkit-background-clip: unset;
+      -webkit-text-fill-color: unset;
+      color: @color-1;
+    }
+    &:before,&:after {
+      content: none;
+    }
+  }
+  .gradient-text {
+    background: @color-bg;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  &.black-bg {
+    &:hover {
+      .gradient-text {
+        background: transparent;
+      }
+    }
+    &:after {
+      background-color: @color-2;
+    }
+  }
+  &:before {
+    background: @color-bg;
+    z-index: -2;
+  }
+  &:after {
+    margin: 1px;
+    z-index: -1;
+    background-color: @color-1;
+  }
+  &:before,&:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 23px;
+  }
+}
+
+.nav-lang {
+  margin-bottom: 40px;
+  margin-top: 40px;
+  @media(max-width:991px) {
+    display: inline-block;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  li {
+    @media(max-width:991px) {
+      display: inline-block;
+      float: none;
+      margin-bottom: 20px;
+    }
+    border-radius: 4px;
+    &.active {
+      background-color: @color-1 !important;
+      a {
+        color: @color-2 !important;
+      }
+    }
+    a {
+      color: fade(@color-1,60%);
+      font-family: @font-1;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 18px;
+      text-align: center;
+      padding: 5px 20px;
+      background-color: transparent !important;
+      border-radius: 4px;
+      &:hover {
+        background-color: @color-1 !important;
+        color: @color-2;
+      }
+    }
+  }
+}
+
+.circle-block {
+  &.active {
+    background-color: @color-2;
+  }
+  position: relative;
+  border-radius: 50px;
+  background-color: #EDEDF0;
+  width: 100px;
+  height: 100px;
+  img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+}
+
+
+
+.slick-list {
+  padding: 5px 0;
+  overflow-y: visible;
+}
+.slick-initialized .slick-slide {
+  margin: 0 10px;
+  min-width: 100px;
+}
+
+.slick-arrow {
+  &.slick-prev {
+      left: -15px;
+    @media(max-width:991px) {
+      display: none!important;
+    }
+    &:before {
+      content: url(../../img/ic_arrowmain_l.svg);
+    }
+  }
+  &.slick-next {
+      right: -15px;
+    @media(max-width:991px) {
+      display: none!important;
+    }
+    &:before {
+      content: url(../../img/ic_arrowmain_r.svg);
+    }
+  }
+  position: absolute;
+  border-radius: 50px;
+  z-index: 2;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #EDEDF0;
+  text-decoration: none;
+  outline: none;
+  transition: 0.3s all;
+  padding: 15px;
+  font-size: 0;
+  border: 0;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.26);
+  &:before {
+    display: inline-block;
+    vertical-align: baseline;
+    height: 16px;
+    width: 18px;
+  }
+  &:hover {
+    &:before {
+      filter: brightness(50%);
+    }
+  }
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="36px" viewBox="0 0 24 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_crypto</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ncrypto-landing" transform="translate(-709.000000, -5618.000000)" fill="#000000">
+            <g id="ic_crypto" transform="translate(697.000000, 5612.000000)">
+                <path d="M16,20.8 C15.3372583,20.8 14.8,21.3372583 14.8,22 L14.8,38 C14.8,38.6627417 15.3372583,39.2 16,39.2 L32,39.2 C32.6627417,39.2 33.2,38.6627417 33.2,38 L33.2,22 C33.2,21.3372583 32.6627417,20.8 32,20.8 L16,20.8 Z M16,18 L32,18 C34.209139,18 36,19.790861 36,22 L36,38 C36,40.209139 34.209139,42 32,42 L16,42 C13.790861,42 12,40.209139 12,38 L12,22 C12,19.790861 13.790861,18 16,18 Z" id="Combined-Shape" fill-rule="nonzero"></path>
+                <path d="M24,6 C27.8659932,6 31,9.13400675 31,13 L31,20 L17,20 L17,13 C17,9.13400675 20.1340068,6 24,6 Z M24,9 C21.790861,9 20,10.790861 20,13 L20,18 L28,18 L28,13 C28,10.790861 26.209139,9 24,9 Z" id="Combined-Shape"></path>
+                <circle id="Oval-17" cx="24" cy="30" r="3"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

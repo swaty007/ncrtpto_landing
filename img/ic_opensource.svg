@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="37px" viewBox="0 0 38 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_opensource</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ncrypto-landing" transform="translate(-1099.000000, -5157.000000)" fill="#000000">
+            <g id="ic_opensource" transform="translate(1094.000000, 5152.000000)">
+                <path d="M19.9847684,28.4587701 C18.7375938,27.3359378 18,25.7291323 18,24 C18,20.6862915 20.6862915,18 24,18 C27.3137085,18 30,20.6862915 30,24 C30,25.7291323 29.2624062,27.3359378 28.0152316,28.4587701 L30.0733442,37.7202765 C35.4276662,35.3501668 39,30.0143239 39,24 C39,15.7157288 32.2842712,9 24,9 C15.7157288,9 9,15.7157288 9,24 C9,30.0143239 12.5723338,35.3501668 17.9266558,37.7202765 L19.9847684,28.4587701 Z M18.3138063,40.0254632 C11.5864402,37.6383464 7,31.2548897 7,24 C7,14.6111593 14.6111593,7 24,7 C33.3888407,7 41,14.6111593 41,24 C41,31.2548897 36.4135598,37.6383464 29.6861937,40.0254632 L28.6208271,40.4034944 L25.7848327,27.6415192 L26.3229728,27.2568251 C27.3682522,26.509598 28,25.3086255 28,24 C28,21.790861 26.209139,20 24,20 C21.790861,20 20,21.790861 20,24 C20,25.3086255 20.6317478,26.509598 21.6770272,27.2568251 L22.2151673,27.6415192 L19.3791729,40.4034944 L18.3138063,40.0254632 Z" id="Combined-Shape" fill-rule="nonzero"></path>
+                <circle id="Oval-16" cx="25" cy="8" r="3"></circle>
+                <circle id="Oval-16-Copy" cx="40" cy="24" r="3"></circle>
+                <circle id="Oval-16-Copy-2" cx="8" cy="24" r="3"></circle>
+                <circle id="Oval-16-Copy-3" cx="19" cy="39" r="3"></circle>
+                <circle id="Oval-16-Copy-4" cx="30" cy="39" r="3"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

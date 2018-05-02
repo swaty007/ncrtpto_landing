@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="94px" height="26px" viewBox="0 0 94 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_leftlognarr</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="0.08-landing" transform="translate(-185.000000, -8898.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="ic_leftlognarr" transform="translate(186.000000, 8899.000000)">
+                <path d="M0,13 C-0.55228475,13 -1,12.5522847 -1,12 C-1,11.4477153 -0.55228475,11 0,11 L80,11 C80.5522847,11 81,11.4477153 81,12 C81,12.5522847 80.5522847,13 80,13 L0,13 Z" id="Path-12"></path>
+                <path d="M79.2928932,0.707106781 C78.9023689,0.316582489 78.9023689,-0.316582489 79.2928932,-0.707106781 C79.6834175,-1.09763107 80.3165825,-1.09763107 80.7071068,-0.707106781 L92.7071068,11.2928932 C93.0976311,11.6834175 93.0976311,12.3165825 92.7071068,12.7071068 L80.7071068,24.7071068 C80.3165825,25.0976311 79.6834175,25.0976311 79.2928932,24.7071068 C78.9023689,24.3165825 78.9023689,23.6834175 79.2928932,23.2928932 L90.5857864,12 L79.2928932,0.707106781 Z" id="Path-13"></path>
+            </g>
+        </g>
+    </g>
+</svg>

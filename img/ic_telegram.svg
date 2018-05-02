@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_telegram</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="101.999998%" y2="100.999999%" id="linearGradient-1">
+            <stop stop-color="#3023AE" offset="0%"></stop>
+            <stop stop-color="#C86DD7" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ncrypto-landing" transform="translate(-200.000000, -680.000000)" fill="url(#linearGradient-1)">
+            <g id="Group-5" transform="translate(200.000000, 680.000000)">
+                <path d="M15,30 C6.71572875,30 0,23.2842712 0,15 C0,6.71572875 6.71572875,0 15,0 C23.2842712,0 30,6.71572875 30,15 C30,23.2842712 23.2842712,30 15,30 Z M13.6225335,17.0427614 C13.0053368,17.5997343 13.0414534,18.4475888 13.7137673,18.944303 L18.55,22.517375 C19.2398125,22.8979875 19.737675,22.700925 19.9095,21.8769375 L22.370125,10.2815625 C22.62205,9.2715375 21.9851125,8.8134375 21.3252,9.1130375 L6.87645,14.6844125 C5.8901875,15.08 5.8959375,15.6302375 6.696675,15.8754125 L9.6896344,16.8095633 C10.0844714,16.9327983 10.6901592,16.8525125 11.0357612,16.6344762 L18.988675,11.617075 C19.3939125,11.3713375 19.7658375,11.5034513 19.460575,11.774375 L13.6225335,17.0427614 Z" id="ic_telegram"></path>
+            </g>
+        </g>
+    </g>
+</svg>
