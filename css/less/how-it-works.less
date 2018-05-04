@@ -17,6 +17,7 @@
     font-family: @font-1;
     font-size: 17px;
     line-height: 20px;
+    font-weight: normal;
   }
 }
 
@@ -36,8 +37,10 @@
     margin-bottom: 40px;
     img {
       display: inline-block;
-      width: 30px;
       vertical-align: middle;
+      max-width: 30px;
+      height: 30px;
+      width: auto;
     }
     span {
       color: @color-2;
@@ -70,8 +73,10 @@
         padding: 14px 20px 14px 66px;
         background-color: transparent;
         border-radius: 4px;
-        &:hover {
+        cursor: pointer;
+        &:hover,&:focus {
           background-color: transparent !important;
+          color: @color-2;
         }
         img {
           width: 35px;
@@ -122,6 +127,12 @@
     }
     img {
       width: 100%;
+      &.mob {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        max-width: 500px;
+      }
     }
   }
 }
@@ -164,9 +175,63 @@
   }
 }
 
+.how-it-works-cases {
+  border-radius: 7px 7px 0 0;
+  padding-top: 60px;
+  padding-bottom: 110px;
+  background-size: cover;
+  .sub-title {
+    color: @color-1;
+    margin-bottom: 45px;
+  }
+  .descript {
+    color: @color-1;
+    margin-bottom: 20px;
+  }
+  .nav-works-wrap-cases {
+    overflow-x: auto;
+    .nav-works-cases {
+      margin-bottom: 45px;
+      width: fit-content;
+      overflow: hidden;
+      max-width: 500px;
+      li {
+        display: table-cell;
+        width: 1%;
+        margin: 0;
+        float: none;
+        border-radius: 4px;
+        &.active {
+          background: linear-gradient(133.3deg, #CCEF05 0%, #429321 100%)!important;
+          a {
+            color: @color-2;
+          }
+        }
+        a {
+          color: fade(@color-1,60%);
+          font-family: @font-1;
+          font-size: 17px;
+          font-weight: 500;
+          line-height: 18px;
+          text-align: center;
+          padding: 5px 20px;
+          background-color: transparent;
+          border-radius: 4px;
+          white-space: nowrap;
+          cursor: pointer;
+          &:hover {
+            background: transparent!important;
+            color: @color-1;
+          }
+        }
+      }
+    }
+  }
+}
+
 .how-it-works-4 {
   padding-top: 60px;
-  border-radius: 7px;
+  border-radius: 0 0 7px 7px;
   background-color: #E9F2DE;
   .sub-title {
     color: @color-2;
@@ -177,9 +242,6 @@
     margin-bottom: 60px;
   }
   .image-block {
-    @media(max-width:991px) {
-      margin-top: 40px;
-    }
     img {
       width: 100%;
     }
@@ -187,7 +249,7 @@
   .nav-works-wrap-4 {
     overflow-x: auto;
     .nav-works-4 {
-      margin-bottom: 0;
+      margin-bottom: 40px;
       width: fit-content;
       overflow: hidden;
       max-width: 440px;
@@ -214,8 +276,9 @@
           background-color: transparent;
           border-radius: 4px;
           white-space: nowrap;
+          cursor: pointer;
           &:hover {
-            background: linear-gradient(133.3deg, #CCEF05 0%, #429321 100%)!important;
+            background: transparent!important;
             color: @color-2;
           }
         }

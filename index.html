@@ -17,1763 +17,11 @@
     <![endif]-->
 
 
-    <!--<link rel="stylesheet/less" type="text/css" href="css/less/main.less" />-->
+    <link rel="stylesheet/less" type="text/css" href="css/less/main.less" />
     <link rel="stylesheet" href="slick/slick.css" />
-    <!--<script src="js/less.min.js" type="text/javascript"></script>-->
+    <script src="js/less.min.js" type="text/javascript"></script>
 
 
-
-    <style type="text/css" id="less:landing-css-less-main">@font-face {
-        font-family: 'TT Norms';
-        src: url(http://ncrypto.infinitum.tech/landing/css/font_ttnorms/TTNorms-Regular.otf);
-        font-style: normal;
-        font-weight: normal;
-    }
-    @font-face {
-        font-family: 'TT Norms';
-        src: url(http://ncrypto.infinitum.tech/landing/css/font_ttnorms/TTNorms-Medium.otf);
-        font-style: normal;
-        font-weight: 500;
-    }
-    @font-face {
-        font-family: 'TT Norms';
-        src: url(http://ncrypto.infinitum.tech/landing/css/font_ttnorms/TTNorms-Bold.otf);
-        font-style: normal;
-        font-weight: bold;
-    }
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    p {
-        margin-top: 0;
-        margin-bottom: 0;
-    }
-    input[type="email"],
-    input[type="text"],
-    input[type="password"],
-    textarea,
-    .form-control {
-        border: 1px solid rgba(255, 255, 255, 0.2);
-        border-radius: 4px;
-        background-color: transparent;
-        font-family: 'TT Norms';
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 20px;
-        height: 40px;
-        color: #000000;
-        padding: 10px;
-        width: 100%;
-        box-shadow: none!important;
-    }
-    input[type="email"]::placeholder,
-    input[type="text"]::placeholder,
-    input[type="password"]::placeholder,
-    textarea::placeholder,
-    .form-control::placeholder {
-        color: rgba(255, 255, 255, 0.3);
-    }
-    input[type="email"]:focus,
-    input[type="text"]:focus,
-    input[type="password"]:focus,
-    textarea:focus,
-    .form-control:focus {
-        border: 1px solid rgba(255, 255, 255, 0.6);
-        box-shadow: none;
-        background-color: #ffffff;
-        color: #000000;
-    }
-    select.form-control {
-        -moz-appearance: none!important;
-        appearance: none!important;
-        background-repeat: no-repeat;
-        background-position: 95% 50%;
-        background-image: url(http://ncrypto.infinitum.tech/landing/img/ic_selector_arrows.svg);
-        color: #000000;
-        font-family: 'TT Norms';
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 16px;
-        cursor: pointer;
-        border-radius: 4px;
-        text-decoration: none;
-        border: none;
-        box-shadow: none!important;
-        outline: none!important;
-        -webkit-appearance: none!important;
-    }
-    .form-main {
-        position: relative;
-    }
-    .form-main .submit-btn {
-        position: absolute;
-        right: 0;
-        top: 0;
-        height: 40px;
-        background: transparent;
-        border: none;
-        padding: 0 15px;
-    }
-    .form-main .submit-btn:before {
-        content: "";
-        background-image: url(http://ncrypto.infinitum.tech/landing/img/ic_arrowright_w.svg);
-        background-size: auto 20px;
-        width: 28px;
-        background-position: center;
-        background-repeat: no-repeat;
-        display: block;
-        height: 40px;
-    }
-    .form-main input:focus ~ .submit-btn:before {
-        background-image: url(http://ncrypto.infinitum.tech/landing/img/ic_arrowmain_r.svg);
-    }
-    .how-it-works-1,
-    .how-it-works-2,
-    .how-it-works-3,
-    .how-it-works-4,
-    .how-it-works-6,
-    .roadmap,
-    .how-it-works-7,
-    .legal-framework,
-    .contact-us {
-        max-width: 1080px;
-        margin-right: auto;
-        margin-left: auto;
-    }
-    @media (min-width: 1200px) {
-        .how-it-works-1,
-        .how-it-works-2,
-        .how-it-works-3,
-        .how-it-works-4,
-        .how-it-works-6,
-        .roadmap,
-        .how-it-works-7,
-        .legal-framework,
-        .contact-us {
-            max-width: 1200px;
-        }
-    }
-    @media (min-width: 1200px) {
-    }
-    @media (min-width: 992px) {
-        #bonus-items,
-        #partners-items {
-            padding: 0 30px;
-        }
-    }
-    .download-btn {
-        color: #ffffff;
-        font-family: 'TT Norms';
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 18px;
-        padding: 8px 24px;
-        border: 1px solid rgba(255, 255, 255, 0.3);
-        border-radius: 23px;
-        text-decoration: none;
-        outline: none;
-        display: inline-block;
-        text-align: center;
-    }
-    .gradient-btn {
-        color: #ffffff;
-        font-family: 'TT Norms';
-        font-size: 19px;
-        font-weight: 500;
-        line-height: 22px !important;
-        text-align: center;
-        padding: 11px 23px !important;
-        background: linear-gradient(134.72deg, #3023AE 0%, #C86DD7 100%);
-        border-radius: 23px;
-        text-decoration: none;
-        outline: none;
-        display: inline-block !important;
-    }
-    .gradient-btn:hover {
-        background: #EDEDF0;
-        color: #000000;
-        text-decoration: none;
-    }
-    .gradient-btn-transparent {
-        background: linear-gradient(134.72deg, #3023AE 0%, #C86DD7 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-family: 'TT Norms';
-        font-size: 19px;
-        font-weight: 500;
-        line-height: 22px !important;
-        text-align: center;
-        padding: 11px 34px !important;
-        border-radius: 23px;
-        text-decoration: none;
-        outline: none;
-        display: inline-block !important;
-        position: relative !important;
-        z-index: 0;
-    }
-    .gradient-btn-transparent:hover {
-        -webkit-background-clip: unset;
-        -webkit-text-fill-color: unset;
-        color: #ffffff;
-        text-decoration: none;
-    }
-    .gradient-btn-transparent:hover .gradient-text {
-        -webkit-background-clip: unset;
-        -webkit-text-fill-color: unset;
-        color: #ffffff;
-        background: transparent;
-    }
-    .gradient-btn-transparent:hover:before,
-    .gradient-btn-transparent:hover:after {
-        content: none;
-    }
-    .gradient-btn-transparent .gradient-text {
-        background: linear-gradient(134.72deg, #3023AE 0%, #C86DD7 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-    .gradient-btn-transparent.black-bg:hover .gradient-text {
-        background: transparent;
-    }
-    .gradient-btn-transparent.black-bg:after {
-        background-color: #000000;
-    }
-    .gradient-btn-transparent:before {
-        background: linear-gradient(134.72deg, #3023AE 0%, #C86DD7 100%);
-        z-index: -2;
-    }
-    .gradient-btn-transparent:after {
-        margin: 1px;
-        z-index: -1;
-        background-color: #ffffff;
-    }
-    .gradient-btn-transparent:before,
-    .gradient-btn-transparent:after {
-        content: "";
-        display: block;
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        border-radius: 23px;
-    }
-    .nav-lang {
-        margin-bottom: 40px;
-        margin-top: 40px;
-    }
-    @media (max-width: 991px) {
-        .nav-lang {
-            display: inline-block;
-            margin-bottom: 20px;
-            text-align: center;
-        }
-    }
-    .nav-lang li {
-        border-radius: 4px;
-    }
-    @media (max-width: 991px) {
-        .nav-lang li {
-            display: inline-block;
-            float: none;
-            margin-bottom: 20px;
-        }
-    }
-    .nav-lang li.active {
-        background-color: #ffffff !important;
-    }
-    .nav-lang li.active a {
-        color: #000000 !important;
-    }
-    .nav-lang li a {
-        color: rgba(255, 255, 255, 0.6);
-        font-family: 'TT Norms';
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 18px;
-        text-align: center;
-        padding: 5px 20px;
-        background-color: transparent !important;
-        border-radius: 4px;
-    }
-    .nav-lang li a:hover {
-        background-color: #ffffff !important;
-        color: #000000;
-    }
-    .circle-block {
-        position: relative;
-        border-radius: 50px;
-        background-color: #EDEDF0;
-        width: 100px;
-        height: 100px;
-    }
-    .circle-block.active {
-        background-color: #000000;
-    }
-    .circle-block img {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translateX(-50%) translateY(-50%);
-    }
-    .slick-list {
-        padding: 5px 0;
-        overflow-y: visible;
-    }
-    .slick-initialized .slick-slide {
-        margin: 0 10px;
-        min-width: 100px;
-    }
-    .slick-arrow {
-        position: absolute;
-        border-radius: 50px;
-        z-index: 2;
-        top: 50%;
-        transform: translateY(-50%);
-        background-color: #EDEDF0;
-        text-decoration: none;
-        outline: none;
-        transition: 0.3s all;
-        padding: 15px;
-        font-size: 0;
-        border: 0;
-        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.26);
-    }
-    .slick-arrow.slick-prev {
-        left: -15px;
-    }
-    @media (max-width: 991px) {
-        .slick-arrow.slick-prev {
-            display: none!important;
-        }
-    }
-    .slick-arrow.slick-prev:before {
-        content: url(http://ncrypto.infinitum.tech/landing/img/ic_arrowmain_l.svg);
-    }
-    .slick-arrow.slick-next {
-        right: -15px;
-    }
-    @media (max-width: 991px) {
-        .slick-arrow.slick-next {
-            display: none!important;
-        }
-    }
-    .slick-arrow.slick-next:before {
-        content: url(http://ncrypto.infinitum.tech/landing/img/ic_arrowmain_r.svg);
-    }
-    .slick-arrow:before {
-        display: inline-block;
-        vertical-align: baseline;
-        height: 16px;
-        width: 18px;
-    }
-    .slick-arrow:hover:before {
-        filter: brightness(50%);
-    }
-    .header nav.navbar {
-        background-color: rgba(0, 0, 0, 0.86);
-        margin-bottom: 0;
-        border: none;
-        min-height: 70px;
-        border-radius: 0;
-    }
-    .header nav.navbar .container {
-        position: relative;
-    }
-    .header nav.navbar.opened {
-        background-color: #000000;
-    }
-    @media (min-width: 768px) and (max-width: 991px) {
-        .header nav.navbar .navbar-collapse.collapse {
-            display: none !important;
-        }
-        .header nav.navbar .navbar-collapse.collapse.in {
-            display: block !important;
-        }
-        .header nav.navbar .navbar-header .collapse,
-        .header nav.navbar .navbar-toggle {
-            display: block !important;
-        }
-        .header nav.navbar .navbar-header {
-            float: none;
-        }
-        .header nav.navbar .navbar-nav {
-            float: none!important;
-            margin: 7.5px -15px;
-        }
-        .header nav.navbar .navbar-nav > li {
-            float: none;
-        }
-    }
-    .header nav.navbar .navbar-container {
-        padding-right: 30px;
-        padding-left: 30px;
-    }
-    @media (min-width: 992px) {
-        .header nav.navbar .navbar-collapse {
-            line-height: 0;
-        }
-        .header nav.navbar .navbar-nav {
-            display: inline-block;
-        }
-        .header nav.navbar .navbar-nav:first-child {
-            float: none;
-        }
-    }
-    .header nav.navbar .navbar-collapse {
-        max-height: 100vh;
-        border-top: none;
-        box-shadow: none;
-    }
-    .header nav.navbar .navbar-header {
-        text-align: center;
-    }
-    @media (max-width: 991px) {
-        .header nav.navbar .navbar-header {
-            margin-left: -15px;
-            margin-right: -15px;
-            position: relative;
-        }
-    }
-    .header nav.navbar .navbar-header .navbar-brand {
-        height: auto;
-        outline: none;
-        padding: 0;
-        line-height: 70px;
-        float: none;
-        display: inline-block;
-    }
-    @media (max-width: 991px) {
-        .header nav.navbar .navbar-header .navbar-brand {
-            display: none;
-        }
-    }
-    .header nav.navbar .navbar-header .navbar-brand:hover {
-        opacity: 0.8;
-    }
-    .header nav.navbar .navbar-header img {
-        width: 100%;
-        display: inline-block;
-    }
-    .header nav.navbar .navbar-header .navbar-toggle {
-        height: 34px;
-        width: 34px;
-        cursor: pointer;
-        text-decoration: none;
-        outline: none;
-        margin: 0;
-        position: absolute;
-        left: 0;
-        top: 18px;
-        z-index: 5;
-        padding: 0;
-    }
-    .header nav.navbar .navbar-header .navbar-toggle:before {
-        background-image: url(http://ncrypto.infinitum.tech/landing/img/ic_menu.svg);
-        content: "";
-        width: 30px;
-        height: 30px;
-        display: block;
-        background-size: auto 28px;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    .header nav.navbar .navbar-header .navbar-toggle:not(.collapsed):before {
-        background-image: url(http://ncrypto.infinitum.tech/landing/img/ic_closewhite.svg);
-    }
-    .header nav.navbar .nav-lang li a {
-        margin: 0!important;
-    }
-    @media (min-width: 992px) {
-        .header nav.navbar ul li {
-            line-height: 70px;
-        }
-    }
-    .header nav.navbar ul li .gradient-btn {
-        margin-top: 40px;
-    }
-    .header nav.navbar ul li .gradient-btn-transparent {
-        margin-bottom: 20px;
-    }
-    .header nav.navbar ul li .logo-li {
-        margin-top: 13px;
-        margin-bottom: 35px;
-    }
-    .header nav.navbar ul li .logo-li img {
-        width: 35px;
-    }
-    .header nav.navbar ul li a.scroll {
-        color: #ffffff;
-        font-family: 'TT Norms';
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 18px;
-        background-color: transparent;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        vertical-align: middle;
-        display: inline-block;
-        border-radius: 4px;
-    }
-    @media (max-width: 991px) {
-        .header nav.navbar ul li a.scroll {
-            margin-top: 10px;
-            margin-bottom: 10px;
-        }
-    }
-    .header nav.navbar ul li a.scroll.active,
-    .header nav.navbar ul li a.scroll:hover {
-        background: linear-gradient(134.72deg, #3023AE 0%, #C86DD7 100%);
-    }
-    .header nav.navbar .navbar-toggle:not(.collapsed) ~ .invest-btn {
-        display: none;
-    }
-    .header nav.navbar .invest-btn {
-        position: absolute;
-        top: 17px;
-        right: 5px;
-        background-color: #000000;
-        color: #ffffff;
-        font-family: 'TT Norms';
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 18px;
-        text-align: center;
-        padding: 8px 40px;
-        border-radius: 20px;
-        vertical-align: middle;
-        display: inline-block;
-        border: 1px solid rgba(255, 255, 255, 0.3);
-        text-decoration: none;
-        outline: none;
-    }
-    .header nav.navbar .invest-btn:hover {
-        border-color: #000000;
-        color: #ffffff;
-        background: linear-gradient(134.72deg, #3023AE 0%, #C86DD7 100%);
-    }
-    .main-block {
-        padding-top: 130px;
-        padding-bottom: 70px;
-        background-color: #000000;
-    }
-    @media (max-width: 991px) {
-        .main-block {
-            text-align: center;
-        }
-    }
-    .main-block .logo-block {
-        margin-bottom: 20px;
-    }
-    .main-block .logo-block img {
-        width: 35px;
-    }
-    .main-block .main-title {
-        color: #ffffff;
-        font-family: 'TT Norms';
-        font-size: 32px;
-        line-height: 38px;
-        margin-bottom: 30px;
-        font-weight: normal;
-    }
-    .main-block .text {
-        margin-bottom: 40px;
-        color: #ffffff;
-        font-family: 'TT Norms';
-        font-size: 17px;
-        line-height: 20px;
-    }
-    .main-block .label-text {
-        color: rgba(255, 255, 255, 0.6);
-        font-family: 'TT Norms';
-        font-size: 17px;
-        line-height: 20px;
-        margin-bottom: 6px;
-        margin-top: 50px;
-    }
-    @media (max-width: 991px) {
-        .main-block .nav-social {
-            margin-bottom: 20px;
-            display: inline-block;
-            text-align: center;
-        }
-    }
-    .main-block .nav-social li {
-        border-radius: 4px;
-    }
-    @media (max-width: 991px) {
-        .main-block .nav-social li {
-            display: inline-block;
-            float: none;
-            margin-bottom: 20px;
-        }
-    }
-    .main-block .nav-social li.active {
-        background-color: transparent!important;
-    }
-    .main-block .nav-social li a {
-        padding: 0 10px;
-        background-color: transparent!important;
-        border-radius: 4px;
-    }
-    .main-block .nav-social li a img {
-        width: 30px;
-        height: 30px;
-    }
-    .main-block .white-block {
-        background-color: #ffffff;
-        box-shadow: 0 14px 20px 0 rgba(0, 0, 0, 0.16);
-        border-radius: 7px;
-        padding: 20px;
-    }
-    .main-block .white-block .white-title {
-        color: #000000;
-        font-family: 'TT Norms';
-        font-size: 22px;
-        font-weight: bold;
-        line-height: 26px;
-        margin-bottom: 4px;
-        text-align: left;
-    }
-    .main-block .white-block .sub-white-title {
-        color: rgba(0, 0, 0, 0.4);
-        font-family: 'TT Norms';
-        font-size: 12px;
-        font-weight: 500;
-        line-height: 16px;
-    }
-    .main-block .white-block .timer {
-        color: #000000;
-        font-family: 'TT Norms';
-        font-size: 38px;
-        line-height: 44px;
-        margin-bottom: 20px;
-        margin-top: 20px;
-        text-align: center;
-    }
-    .main-block .white-block .title-cur {
-        color: #000000;
-        font-family: 'TT Norms';
-        font-size: 25px;
-        font-weight: 500;
-        line-height: 30px;
-        text-align: center;
-        margin-top: 20px;
-        margin-bottom: 2px;
-    }
-    .main-block .white-block .sub-text {
-        color: #4A4A4A;
-        font-family: 'TT Norms';
-        font-size: 14px;
-        line-height: 16px;
-        text-align: center;
-        margin-bottom: 24px;
-    }
-    .main-block .white-block .text-main {
-        color: #9B9B9B;
-        font-family: 'TT Norms';
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 18px;
-        text-align: center;
-        margin-bottom: 20px;
-    }
-    .main-block .white-block .img-block {
-        margin-bottom: 24px;
-        text-align: center;
-    }
-    .main-block .white-block .img-block img {
-        width: 135px;
-        max-width: 100%;
-    }
-    .main-block .white-block .text-black {
-        color: #000000;
-        font-family: 'TT Norms';
-        font-size: 32px;
-        font-weight: bold;
-        line-height: 38px;
-        text-align: center;
-    }
-    .main-block .white-block .text-black-sub {
-        color: rgba(0, 0, 0, 0.4);
-        font-family: 'TT Norms';
-        font-size: 12px;
-        font-weight: 500;
-        line-height: 15px;
-        text-transform: uppercase;
-        text-align: center;
-    }
-    .main-block .white-block .line-wrap {
-        margin-top: 23px;
-    }
-    .main-block .white-block .line-wrap .line {
-        width: 100%;
-        margin-bottom: 16px;
-        height: 8px;
-        background-color: #EDEDF0;
-        border-radius: 4px;
-    }
-    .main-block .white-block .line-wrap .line span {
-        border-radius: 4px;
-        background: linear-gradient(134.72deg, #3023AE 0%, #C86DD7 100%);
-        text-align: left;
-        height: 8px;
-        display: block;
-        position: relative;
-    }
-    .main-block .white-block .line-wrap .line span:after {
-        content: "";
-        box-sizing: border-box;
-        height: 19px;
-        width: 19px;
-        border: 1px solid #ffffff;
-        background: linear-gradient(134.72deg, #3023AE 0%, #C86DD7 100%);
-        display: block;
-        border-radius: 30px;
-        position: absolute;
-        right: -1px;
-        top: -5.5px;
-    }
-    .main-block .white-block .line-wrap .line-text {
-        color: #4A4A4A;
-        font-family: 'TT Norms';
-        font-size: 12px;
-        font-weight: bold;
-        line-height: 14px;
-        text-align: center;
-    }
-    .main-block .white-block .line-wrap .line-sub-text {
-        color: #9B9B9B;
-        font-family: 'TT Norms';
-        font-size: 14px;
-        line-height: 16px;
-        text-align: center;
-    }
-    .slider-blocks {
-        padding-top: 90px;
-        padding-bottom: 70px;
-    }
-    .slider-blocks .quote-text {
-        color: #616161;
-        font-family: 'TT Norms';
-        font-size: 25px;
-        line-height: 30px;
-        text-align: center;
-        margin-bottom: 40px;
-        position: relative;
-        font-weight: normal;
-        padding: 0 20px;
-    }
-    .slider-blocks .quote-text:before,
-    .slider-blocks .quote-text:after {
-        content: "";
-        background-size: 25.2px 17.62px;
-        height: 17.62px;
-        width: 25.2px;
-        display: block;
-        position: absolute;
-    }
-    .slider-blocks .quote-text:before {
-        background-image: url(http://ncrypto.infinitum.tech/landing/img/ic_quotel.svg);
-        left: 0;
-        top: 0;
-    }
-    .slider-blocks .quote-text:after {
-        background-image: url(http://ncrypto.infinitum.tech/landing/img/ic_quoter.svg);
-        right: 0;
-        bottom: 0;
-    }
-    .slider-blocks .img-block {
-        text-align: center;
-    }
-    .slider-blocks .img-block img {
-        width: 113px;
-    }
-    .slider-blocks .line {
-        border-top: 1px solid #D5D5D5;
-    }
-    .slider-blocks .img-wrap-slider {
-        text-align: center;
-        line-height: 70px;
-    }
-    @media (max-width: 991px) {
-        .slider-blocks .img-wrap-slider {
-            margin-bottom: 40px;
-        }
-    }
-    .slider-blocks .img-wrap-slider img {
-        max-width: 100%;
-        max-height: 70px;
-        display: inline-block;
-    }
-    .slider-blocks .title {
-        color: #000000;
-        font-family: 'TT Norms';
-        font-size: 31px;
-        font-weight: 500;
-        line-height: 37px;
-        margin-bottom: 30px;
-        text-align: center;
-    }
-    @media (min-width: 992px) {
-        .slider-blocks .title {
-            margin-top: 110px;
-        }
-    }
-    .slider-blocks .token-block-wrap {
-        border-radius: 7px;
-        box-shadow: -1px 4px 20px 0 rgba(0, 0, 0, 0.16);
-        padding: 20px;
-        display: inline-block;
-        margin-bottom: 15px;
-        margin-top: 15px;
-    }
-    .slider-blocks .token-block-wrap.completed .slide-percent {
-        color: #9B9B9B;
-    }
-    .slider-blocks .token-block-wrap.completed .slide-time {
-        color: #9B9B9B;
-    }
-    .slider-blocks .token-block-wrap.completed .status-block {
-        background-color: #9B9B9B;
-        padding-right: 60px;
-        color: #ffffff;
-    }
-    .slider-blocks .token-block-wrap.completed .status-block:before {
-        content: "";
-        background-image: url(http://ncrypto.infinitum.tech/landing/img/ic_ckeck_w.svg);
-        background-size: 16px 16px;
-        width: 16px;
-        display: block;
-        height: 16px;
-        position: absolute;
-        right: 28px;
-        top: 50%;
-        transform: translateY(-50%);
-    }
-    .slider-blocks .token-block-wrap.active {
-        background: linear-gradient(134.72deg, #3023AE 0%, #C86DD7 100%);
-    }
-    .slider-blocks .token-block-wrap.active .slide-percent {
-        color: #ffffff;
-    }
-    .slider-blocks .token-block-wrap.active .slide-bonus {
-        color: rgba(255, 255, 255, 0.4);
-    }
-    .slider-blocks .token-block-wrap.active .slide-time {
-        color: #ffffff;
-    }
-    .slider-blocks .token-block-wrap.active .status-block {
-        background-color: rgba(255, 255, 255, 0.2);
-        color: #ffffff;
-    }
-    .slider-blocks .token-block-wrap.active .slide-time {
-        color: #ffffff;
-    }
-    .slider-blocks .token-block-wrap .slide-bonus {
-        color: #9B9B9B;
-        font-family: 'TT Norms';
-        font-size: 12px;
-        font-weight: 500;
-        line-height: 16px;
-        margin-bottom: 40px;
-        margin-top: 6px;
-        text-transform: uppercase;
-    }
-    .slider-blocks .token-block-wrap .status-block {
-        color: #000000;
-        font-family: 'TT Norms';
-        font-size: 17px;
-        font-weight: 500;
-        line-height: 20px;
-        text-align: center;
-        padding: 18px 20px;
-        background-color: #EDEDF0;
-        border-radius: 4px;
-        margin-bottom: 46px;
-        white-space: nowrap;
-        position: relative;
-    }
-    .slider-blocks .token-block-wrap .slide-percent {
-        color: #000000;
-        font-family: 'TT Norms';
-        font-size: 38px;
-        line-height: 44px;
-        text-align: right;
-        margin-bottom: 38px;
-    }
-    .slider-blocks .token-block-wrap .slide-time {
-        color: #000000;
-        font-family: 'TT Norms';
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 18px;
-    }
-    .how-it-works .title {
-        color: #616161;
-        font-family: 'TT Norms';
-        font-size: 22px;
-        font-weight: bold;
-        line-height: 26px;
-        margin-bottom: 20px;
-    }
-    .how-it-works .sub-title {
-        font-family: 'TT Norms';
-        font-size: 31px;
-        font-weight: 500;
-        line-height: 37px;
-    }
-    .how-it-works .descript {
-        font-family: 'TT Norms';
-        font-size: 17px;
-        line-height: 20px;
-    }
-    .how-it-works-1 {
-        padding-top: 60px;
-        border-radius: 7px 7px 0 0;
-        background-color: #EDEDF0;
-    }
-    .how-it-works-1 .sub-title {
-        color: #000000;
-        margin-bottom: 10px;
-    }
-    .how-it-works-1 .descript {
-        color: #000000;
-        margin-bottom: 40px;
-    }
-    .how-it-works-1 .info-block {
-        margin-bottom: 40px;
-    }
-    .how-it-works-1 .info-block img {
-        display: inline-block;
-        width: 30px;
-        vertical-align: middle;
-    }
-    .how-it-works-1 .info-block span {
-        color: #000000;
-        margin-left: 5%;
-        display: inline-block;
-        width: calc(99% - 30px - 5%);
-        vertical-align: middle;
-        font-family: 'TT Norms';
-        font-size: 18px;
-        line-height: 22px;
-    }
-    .how-it-works-1 .nav-works {
-        margin-bottom: 40px;
-    }
-    .how-it-works-1 .nav-works li {
-        border-radius: 4px;
-    }
-    .how-it-works-1 .nav-works li.active {
-        background-color: #ffffff !important;
-    }
-    .how-it-works-1 .nav-works li.active a {
-        color: #000000;
-    }
-    .how-it-works-1 .nav-works li a {
-        color: rgba(0, 0, 0, 0.3);
-        font-family: 'TT Norms';
-        font-size: 24px;
-        font-weight: 500;
-        line-height: 28px;
-        text-align: center;
-        padding: 14px 20px 14px 66px;
-        background-color: transparent;
-        border-radius: 4px;
-    }
-    .how-it-works-1 .nav-works li a:hover {
-        background-color: transparent !important;
-    }
-    .how-it-works-1 .nav-works li a img {
-        width: 35px;
-        position: absolute;
-        left: 20px;
-        top: 50%;
-        transform: translateY(-50%);
-    }
-    .how-it-works-2 {
-        padding-top: 60px;
-        padding-bottom: 100px;
-        background-color: #000000;
-    }
-    .how-it-works-2 .sub-title {
-        color: #ffffff;
-        margin-bottom: 40px;
-    }
-    .how-it-works-2 .descript {
-        color: #ffffff;
-    }
-    @media (max-width: 991px) {
-        .how-it-works-2 .descript {
-            margin-bottom: 40px;
-        }
-    }
-    .how-it-works-2 .download-wrap {
-        display: inline-block;
-        text-align: center;
-    }
-    @media (max-width: 991px) {
-        .how-it-works-2 .download-wrap {
-            display: block;
-            margin-top: 40px;
-        }
-    }
-    .how-it-works-2 .download-text {
-        color: rgba(213, 213, 213, 0.4);
-        font-family: 'TT Norms';
-        font-size: 12px;
-        font-weight: 500;
-        line-height: 16px;
-        margin-bottom: 10px;
-        text-transform: uppercase;
-    }
-    @media (min-width: 992px) {
-        .how-it-works-2 .image-block {
-            margin-top: -6.5%;
-        }
-    }
-    .how-it-works-2 .image-block img {
-        width: 100%;
-    }
-    .how-it-works-3 {
-        padding-top: 60px;
-        padding-bottom: 60px;
-        background-color: #E5DFF3;
-        border-radius: 0 0 7px 7px;
-    }
-    .how-it-works-3 .sub-title {
-        color: #000000;
-        margin-bottom: 20px;
-    }
-    .how-it-works-3 .descript {
-        color: #000000;
-        margin-bottom: 60px;
-    }
-    @media (max-width: 991px) {
-        .how-it-works-3 .btn-center-mobile {
-            text-align: center;
-        }
-    }
-    @media (max-width: 991px) {
-        .how-it-works-3 .image-block {
-            margin-top: 40px;
-        }
-    }
-    .how-it-works-3 .image-block img {
-        width: 100%;
-    }
-    @media (min-width: 1075px) and (max-width: 1200px) {
-        .how-it-works-3 .image-block .big-image-left {
-            float: left;
-            width: 109%;
-        }
-    }
-    @media (min-width: 1275px) {
-        .how-it-works-3 .image-block .big-image-left {
-            float: left;
-            width: 109%;
-        }
-    }
-    .how-it-works-4 {
-        padding-top: 60px;
-        border-radius: 7px;
-        background-color: #E9F2DE;
-    }
-    .how-it-works-4 .sub-title {
-        color: #000000;
-        margin-bottom: 20px;
-    }
-    .how-it-works-4 .descript {
-        color: #000000;
-        margin-bottom: 60px;
-    }
-    @media (max-width: 991px) {
-        .how-it-works-4 .image-block {
-            margin-top: 40px;
-        }
-    }
-    .how-it-works-4 .image-block img {
-        width: 100%;
-    }
-    .how-it-works-4 .nav-works-wrap-4 {
-        overflow-x: auto;
-    }
-    .how-it-works-4 .nav-works-wrap-4 .nav-works-4 {
-        margin-bottom: 0;
-        width: fit-content;
-        overflow: hidden;
-        max-width: 440px;
-    }
-    .how-it-works-4 .nav-works-wrap-4 .nav-works-4 li {
-        display: table-cell;
-        width: 1%;
-        margin: 0;
-        float: none;
-        border-radius: 4px;
-    }
-    .how-it-works-4 .nav-works-wrap-4 .nav-works-4 li.active {
-        background: linear-gradient(133.3deg, #CCEF05 0%, #429321 100%) !important;
-    }
-    .how-it-works-4 .nav-works-wrap-4 .nav-works-4 li.active a {
-        color: #000000;
-    }
-    .how-it-works-4 .nav-works-wrap-4 .nav-works-4 li a {
-        color: #4A4A4A;
-        font-family: 'TT Norms';
-        font-size: 17px;
-        font-weight: 500;
-        line-height: 18px;
-        text-align: center;
-        padding: 5px 20px;
-        background-color: transparent;
-        border-radius: 4px;
-        white-space: nowrap;
-    }
-    .how-it-works-4 .nav-works-wrap-4 .nav-works-4 li a:hover {
-        background: linear-gradient(133.3deg, #CCEF05 0%, #429321 100%) !important;
-        color: #000000;
-    }
-    .how-it-works-5 {
-        padding-top: 80px;
-        padding-bottom: 10px;
-    }
-    .how-it-works-5 .sub-title {
-        color: #000000;
-        margin-bottom: 60px;
-    }
-    .how-it-works-5 .descript {
-        color: #000000;
-        margin-bottom: 40px;
-    }
-    .how-it-works-5 .circle-block {
-        margin: 0 auto 20px;
-    }
-    .how-it-works-5 .image-block img {
-        width: 100%;
-    }
-    .how-it-works-6 {
-        padding-top: 80px;
-        padding-bottom: 65px;
-        border-radius: 7px 7px 0 0;
-        background-color: #000000;
-    }
-    .how-it-works-6 .sub-title {
-        color: #ffffff;
-        margin-bottom: 40px;
-    }
-    .how-it-works-6 .descript {
-        color: #9B9B9B;
-        margin-bottom: 40px;
-    }
-    .how-it-works-6 .circle-block {
-        margin-right: auto;
-        margin-bottom: 20px;
-        background-color: #4A4A4A;
-    }
-    .how-it-works-6 .circle-block:before {
-        content: "";
-        background-image: url(http://ncrypto.infinitum.tech/landing/img/ic_leftlognarr.svg);
-        background-size: 94px 26px;
-        width: 94px;
-        display: block;
-        height: 26px;
-        position: absolute;
-        right: -126px;
-        top: 50%;
-        transform: translateY(-50%);
-    }
-    @media (max-width: 991px) {
-        .how-it-works-6 .circle-block {
-            margin-left: auto;
-        }
-        .how-it-works-6 .circle-block:before {
-            content: none;
-        }
-    }
-    .how-it-works-6 .circle-block.last:before {
-        content: none;
-    }
-    .how-it-works-6 .circle-title {
-        color: #ffffff;
-        font-family: 'TT Norms';
-        font-size: 17px;
-        font-weight: 500;
-        line-height: 20px;
-        margin-bottom: 50px;
-        position: relative;
-    }
-    @media (max-width: 991px) {
-        .how-it-works-6 .circle-title {
-            text-align: center;
-            margin-bottom: 125px;
-        }
-        .how-it-works-6 .circle-title:before {
-            content: "";
-            background-image: url(http://ncrypto.infinitum.tech/landing/img/ic_leftlognarr.svg);
-            background-size: 94px 26px;
-            width: 94px;
-            display: block;
-            height: 26px;
-            position: absolute;
-            left: 50%;
-            top: 70px;
-            transform: translateX(-50%) rotate(90deg);
-        }
-        .how-it-works-6 .circle-title.last:before {
-            content: none;
-        }
-    }
-    .how-it-works-6 .gradient-text {
-        background: linear-gradient(134.72deg, #3023AE 0%, #C86DD7 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-family: 'TT Norms';
-        font-size: 69px;
-        font-weight: 500;
-        line-height: 81px;
-        text-align: center;
-    }
-    @media (max-width: 991px) {
-        .how-it-works-6 .gradient-text {
-            margin-bottom: 20px;
-        }
-    }
-    .how-it-works-6 .text-one-right {
-        color: #9B9B9B;
-        font-family: 'TT Norms';
-        font-size: 22px;
-        line-height: 26px;
-        text-align: right;
-    }
-    @media (max-width: 991px) {
-        .how-it-works-6 .text-one-right {
-            text-align: center;
-            margin-bottom: 10px;
-        }
-    }
-    .how-it-works-6 .text-one-left {
-        color: #ffffff;
-        font-family: 'TT Norms';
-        font-size: 17px;
-        line-height: 20px;
-    }
-    @media (max-width: 991px) {
-        .how-it-works-6 .text-one-left {
-            text-align: center;
-        }
-    }
-    .how-it-works-7 {
-        padding-top: 60px;
-        padding-bottom: 60px;
-        border-radius: 0 0 7px 7px;
-        background-color: #EDEDF0;
-    }
-    .how-it-works-7 .sub-title {
-        color: #000000;
-        margin-bottom: 40px;
-    }
-    .how-it-works-7 .descript {
-        color: #000000;
-        margin-bottom: 50px;
-    }
-    .how-it-works-7 .descript.margin-40 {
-        margin-bottom: 40px;
-    }
-    .how-it-works-7 .descript.margin-0 {
-        margin-bottom: 0;
-    }
-    .how-it-works-7 .descript.margin-20 {
-        margin-bottom: 20px;
-    }
-    .how-it-works-7 .time {
-        color: #9B9B9B;
-        font-family: 'TT Norms';
-        font-size: 32px;
-        font-weight: bold;
-        line-height: 38px;
-        margin-bottom: 4px;
-    }
-    .how-it-works-7 .percent {
-        color: #000000;
-        font-family: 'TT Norms';
-        font-size: 22px;
-        font-weight: bold;
-        line-height: 26px;
-    }
-    .how-it-works-7 .line {
-        border-top: 1px solid #D5D5D5;
-    }
-    .how-it-works-7 .white-block {
-        border-radius: 7px;
-        background-color: #ffffff;
-        box-shadow: 0 14px 20px 0 rgba(0, 0, 0, 0.16);
-        padding: 20px;
-    }
-    .how-it-works-7 .white-block .title-white-block {
-        color: #000000;
-        font-family: 'TT Norms';
-        font-size: 22px;
-        font-weight: 500;
-        line-height: 26px;
-        margin-bottom: 4px;
-    }
-    .how-it-works-7 .white-block .sub-title-white-block {
-        color: rgba(0, 0, 0, 0.4);
-        font-family: 'TT Norms';
-        font-size: 12px;
-        font-weight: 500;
-        line-height: 16px;
-        margin-bottom: 14px;
-        text-transform: uppercase;
-    }
-    .how-it-works-7 .white-block .title-cur {
-        color: #000000;
-        font-family: 'TT Norms';
-        font-size: 25px;
-        font-weight: 500;
-        line-height: 30px;
-        text-align: center;
-        margin-top: 10px;
-        margin-bottom: 30px;
-    }
-    .how-it-works-7 .white-block .line {
-        margin-top: 6px;
-    }
-    .how-it-works-7 .white-block .sub-text {
-        color: #4A4A4A;
-        font-family: 'TT Norms';
-        font-size: 14px;
-        line-height: 16px;
-        text-align: center;
-        margin-bottom: 30px;
-        margin-top: 10px;
-    }
-    .how-it-works-7 .white-block .text-main {
-        color: #9B9B9B;
-        font-family: 'TT Norms';
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 18px;
-        text-align: center;
-        margin-bottom: 20px;
-    }
-    .how-it-works-7 .white-block .text-black {
-        color: #000000;
-        font-family: 'TT Norms';
-        font-size: 17px;
-        font-weight: bold;
-        line-height: 20px;
-        text-align: center;
-        margin-bottom: 20px;
-    }
-    .how-it-works-7 .white-block .img-block {
-        margin-bottom: 20px;
-        text-align: center;
-    }
-    .how-it-works-7 .white-block .img-block img {
-        width: 135px;
-        max-width: 100%;
-    }
-    .network {
-        padding-top: 80px;
-        padding-bottom: 120px;
-    }
-    .network .title {
-        color: #000000;
-        font-family: 'TT Norms';
-        font-size: 22px;
-        font-weight: bold;
-        line-height: 26px;
-        margin-bottom: 10px;
-    }
-    .network .text {
-        color: #000000;
-        font-family: 'TT Norms';
-        font-size: 17px;
-        line-height: 20px;
-    }
-    .network .circle-block {
-        margin-bottom: 40px;
-    }
-    .roadmap {
-        padding-top: 60px;
-        padding-bottom: 10px;
-        background-color: #E5DFF3;
-    }
-    .roadmap h2 {
-        color: #000000;
-        font-family: 'TT Norms';
-        font-size: 32px;
-        font-weight: 500;
-        line-height: 38px;
-        margin-bottom: 20px;
-        text-align: left;
-    }
-    .roadmap .item .left {
-        padding-right: 70px;
-        padding-left: 10px;
-        width: 50%;
-        float: left;
-        position: relative;
-    }
-    .roadmap .item .left .title {
-        color: #616161;
-        font-family: 'TT Norms';
-        font-size: 22px;
-        font-weight: bold;
-        line-height: 26px;
-        text-align: right;
-        margin-top: -5px;
-    }
-    @media (max-width: 991px) {
-        .roadmap .item .left .title {
-            margin-bottom: 50px;
-        }
-    }
-    .roadmap .item .left .time {
-        color: rgba(0, 0, 0, 0.4);
-        font-family: 'TT Norms';
-        font-size: 12px;
-        font-weight: 500;
-        line-height: 16px;
-        text-align: right;
-        text-transform: uppercase;
-        margin-bottom: 4px;
-    }
-    @media (max-width: 991px) {
-        .roadmap .item .left {
-            border-left: 2px solid transparent;
-            padding-left: 70px;
-            padding-right: 10px;
-        }
-        .roadmap .item .left:before {
-            content: '';
-            position: absolute;
-            height: 16px;
-            width: 16px;
-            background-color: transparent;
-            border-radius: 16px;
-            left: -9px;
-            top: 0;
-            border: 2px solid #000000;
-        }
-        .roadmap .item .left .title,
-        .roadmap .item .left .time {
-            text-align: left;
-        }
-    }
-    .roadmap .item .right {
-        position: relative;
-        padding-left: 120px;
-        padding-right: 10px;
-        width: 50%;
-        float: left;
-        min-height: 60px;
-        border-left: 2px solid transparent;
-    }
-    @media (max-width: 991px) {
-        .roadmap .item .right {
-            display: none;
-        }
-    }
-    .roadmap .item .right:before {
-        content: '';
-        position: absolute;
-        height: 16px;
-        width: 16px;
-        background-color: transparent;
-        border-radius: 16px;
-        left: -9px;
-        top: 0;
-        border: 2px solid #000000;
-    }
-    .roadmap .item .right .text {
-        color: #000000;
-        font-family: 'TT Norms';
-        font-size: 16px;
-        line-height: 20px;
-        margin-bottom: 50px;
-    }
-    .roadmap .item.active .right {
-        border-left: 2px solid rgba(0, 0, 0, 0.3);
-    }
-    .roadmap .item.active .right:before {
-        background-color: #000000;
-    }
-    @media (max-width: 991px) {
-        .roadmap .item.active .left {
-            border-left: 2px solid rgba(0, 0, 0, 0.3);
-        }
-        .roadmap .item.active .left:before {
-            background-color: #000000;
-        }
-    }
-    .roadmap .item:last-child .right {
-        border-color: transparent;
-    }
-    .advisors {
-        padding-top: 80px;
-        padding-bottom: 40px;
-    }
-    .advisors h2 {
-        color: #000000;
-        font-family: 'TT Norms';
-        font-size: 32px;
-        font-weight: 500;
-        line-height: 38px;
-        margin-bottom: 35px;
-        text-align: center;
-    }
-    .advisors .advisory-block {
-        border-radius: 7px;
-        overflow: hidden;
-        background-color: #ffffff;
-        margin-right: -10px;
-        margin-bottom: 20px;
-        position: relative;
-        padding-bottom: 30px;
-        box-shadow: 0 14px 20px 0 rgba(0, 0, 0, 0.16);
-    }
-    .advisors .advisory-block .img-block img {
-        width: 100%;
-        object-fit: cover;
-    }
-    .advisors .advisory-block .description-block {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .advisors .advisory-block .description-block h4 {
-        color: #000000;
-        font-family: 'TT Norms';
-        font-size: 19px;
-        font-weight: 500;
-        line-height: 22px;
-        margin-top: 20px;
-        margin-bottom: 4px;
-    }
-    .advisors .advisory-block .description-block .title {
-        color: rgba(0, 0, 0, 0.4);
-        font-family: 'TT Norms';
-        font-size: 12px;
-        font-weight: 500;
-        line-height: 16px;
-        text-transform: uppercase;
-        margin-bottom: 19px;
-    }
-    .advisors .advisory-block .description-block .text {
-        color: #000000;
-        font-family: 'TT Norms';
-        font-size: 16px;
-        line-height: 20px;
-    }
-    .advisors .advisory-block div.link {
-        position: absolute;
-        top: 20px;
-        right: 20px;
-    }
-    .advisors .advisory-block div.link a {
-        display: block;
-        text-align: center;
-    }
-    .advisors .advisory-block div.link a img {
-        width: 30px;
-    }
-    .advisors .advisory-block div.link a:hover {
-        opacity: 0.8;
-    }
-    .legal-framework {
-        padding-top: 60px;
-        padding-bottom: 60px;
-        border-radius: 7px 7px 0 0;
-        background-color: #E5DFF3;
-    }
-    .legal-framework .title {
-        color: #616161;
-        font-family: 'TT Norms';
-        font-size: 22px;
-        font-weight: bold;
-        line-height: 26px;
-        margin-bottom: 20px;
-    }
-    .legal-framework .sub-title {
-        color: #000000;
-        font-family: 'TT Norms';
-        font-size: 32px;
-        font-weight: 500;
-        line-height: 38px;
-        margin-bottom: 40px;
-    }
-    .legal-framework .text {
-        color: #000000;
-        font-family: 'TT Norms';
-        font-size: 16px;
-        line-height: 20px;
-        margin-bottom: 20px;
-    }
-    .contact-us {
-        border-radius: 0 0 7px 7px;
-        background-color: transparent ;
-        padding-top: 60px;
-        padding-bottom: 40px;
-        position: relative;
-    }
-    .contact-us .image-block {
-        margin-bottom: 30px;
-    }
-    .contact-us .image-block img {
-        width: 35px;
-    }
-    .contact-us .bonus-text {
-        color: #ffffff;
-        font-family: 'TT Norms';
-        font-size: 17px;
-        line-height: 20px;
-        margin-bottom: 20px;
-    }
-    .contact-us .bonus-text.margin-2 {
-        margin-top: 40px;
-        margin-bottom: 14px;
-    }
-    .contact-us .timer {
-        color: #ffffff;
-        font-family: 'TT Norms';
-        font-size: 38px;
-        line-height: 44px;
-    }
-    .contact-us .bonus-cur {
-        color: #ffffff;
-        font-family: 'TT Norms';
-        font-size: 25px;
-        font-weight: 500;
-        line-height: 30px;
-        text-align: center;
-        margin-top: 20px;
-        margin-bottom: 2px;
-    }
-    .contact-us .bonus-sub-text {
-        color: #9B9B9B;
-        font-family: 'TT Norms';
-        font-size: 14px;
-        line-height: 16px;
-        text-align: center;
-        margin-bottom: 40px;
-    }
-    .contact-us .bg-canvas canvas {
-        background-color: #000000;
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        z-index: -1;
-    }
-    .footer {
-        padding-top: 30px;
-        padding-bottom: 40px;
-        position: relative;
-    }
-    @media (max-width: 991px) {
-        .footer .line-block {
-            text-align: center;
-        }
-    }
-    .footer .line-block .line {
-        width: 100px;
-        border-top: 1px solid #D5D5D5;
-        display: inline-block;
-        margin-top: 0;
-    }
-    .footer .mail {
-        display: inline-block;
-        margin-top: 26px;
-        color: #000000;
-        font-family: 'TT Norms';
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 16px;
-        text-decoration: none;
-        outline: none;
-    }
-    .footer .title {
-        color: rgba(0, 0, 0, 0.6);
-        font-size: 14px;
-        line-height: 16px;
-        font-weight: normal;
-        font-family: 'TT Norms';
-    }
-    @media (max-width: 991px) {
-        .footer .title {
-            text-align: center;
-        }
-    }
-    .footer .dropdown {
-        margin-left: auto;
-        background-color: #EDEDF0;
-        border-radius: 4px;
-        padding: 0 30px 0 10px;
-        width: 140px;
-        height: 30px;
-    }
-    @media (max-width: 991px) {
-        .footer .dropdown {
-            width: 120px;
-            margin-right: auto;
-            margin-top: 20px;
-        }
-    }
-    .footer .dropdown .divider-line {
-        margin: 8px 0;
-    }
-    .footer .nav-footer {
-        margin-bottom: 40px;
-        margin-left: auto;
-        margin-right: auto;
-        display: inline-block;
-    }
-    @media (max-width: 991px) {
-        .footer .nav-footer {
-            margin-bottom: 20px;
-            text-align: center;
-        }
-    }
-    .footer .nav-footer li {
-        border-radius: 4px;
-    }
-    @media (max-width: 991px) {
-        .footer .nav-footer li {
-            margin-bottom: 20px;
-            display: inline-block;
-            float: none;
-        }
-    }
-    .footer .nav-footer li.active {
-        background-color: transparent !important;
-    }
-    .footer .nav-footer li.active a {
-        color: #000000;
-        background-color: transparent;
-    }
-    .footer .nav-footer li a {
-        color: #616161;
-        font-family: 'TT Norms';
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 16px;
-        padding: 0 20px;
-        background-color: transparent !important;
-        border-radius: 4px;
-        text-decoration: underline;
-    }
-    .footer .nav-footer li a:hover {
-        color: #000000;
-    }
-    </style>
 </head>
 <body>
 <header class="header clearfix">
@@ -1802,16 +50,19 @@
                         </a>
                     </li>
                     <li>
-                        <a class="scroll active" href="">Trades</a>
+                        <a class="scroll active" href="#main-block">About</a>
                     </li>
                     <li>
-                        <a class="scroll" href="">Tokens</a>
+                        <a class="scroll" href="#how-it-works-2">How It Works</a>
                     </li>
                     <li>
-                        <a class="scroll" href="">Wallet</a>
+                        <a class="scroll" href="#advisors">Team</a>
                     </li>
                     <li>
-                        <a class="scroll" href="">Support</a>
+                        <a class="scroll" href="#how-it-works-7">Token Sale</a>
+                    </li>
+                    <li>
+                        <a class="nav-btn" href="">White Paper</a>
                     </li>
                     <li class="hidden-lg hidden-md">
                         <a href="#" class="gradient-btn">
@@ -1920,12 +171,20 @@
                             <h3 class="white-title">
                                 Token Sale
                             </h3>
-                            <p class="sub-white-title text-right">
+                            <p class="sub-white-title text-left">
                                 Will start in
                             </p>
                         </div>
-                        <div class="col-xs-6">
-
+                        <div class="col-xs-6 text-right">
+                            <p class="sub-white-title right">
+                                Current<br>
+                                bonus
+                            </p>
+                            <div id="circle_percent" class="circle-percent" data-percent="25">
+                                <p class="percents">
+                                    30%
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <p class="timer" id="timer-1" data-time="2018-12-31 12:00:00">
@@ -1999,6 +258,17 @@
         </div>
     </div>
 
+    <div class="bg-canvas">
+        <div id="particles-js-one"></div>
+    </div>
+
+    <script>
+        window.addEventListener('load', function () {
+            particlesJS("particles-js-one", {"particles":{"number":{"value":10,"density":{"enable":true,"value_area":868.0624057955}},"color":{"value":["#7b47c2","#89cb3e","#f9b047","#7cc0b3"]},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":false,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":11.83721462448409,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":false,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":6,"direction":"none","random":true,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":false,"mode":"repulse"},"onclick":{"enable":false,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":311.6883116883117,"size":40,"duration":2.237762237762238,"opacity":0.9270729270729271,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});var count_particles, update;count_particles = document.querySelector('.js-count-particles'); update = function() {   requestAnimationFrame(update); }; requestAnimationFrame(update);
+
+        });
+    </script>
+
 </section>
 
 
@@ -2046,6 +316,8 @@
                 </h2>
             </div>
         </div>
+    </div>
+    <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
                 <div id="bonus-items" class="bonus-items">
@@ -2231,50 +503,49 @@
 
                     <div class="row">
                         <div class="col-md-12">
-                            <ul class="nav nav-pills nav-works">
+                            <ul id="how-it-1-adaptive-tabs" class="nav nav-pills nav-works">
                                 <li class="active">
-                                    <a href="#"><img src="img/ic_ETH@2x.png" alt="">Ethereum</a>
+                                    <a data-target="#tab-how-work-1,#tab-how-work-2,#tab-how-work-3">
+                                        <img src="img/ic_ETH@2x.png" alt="ETH icon">Ethereum</a>
                                 </li>
                                 <li>
-                                    <a href="#"><img src="img/ic_WAVES@2x.png" alt="">Waves</a>
+                                    <a data-target="#tab-how-work-1,#tab-how-work-4,#tab-how-work-5">
+                                        <img src="img/ic_WAVES@2x.png" alt="Waves icon">Waves</a>
                                 </li>
                                 <li>
-                                    <a href="#"><img src="img/ic_XLM@2x.png" alt="">Stellar</a>
+                                    <a data-target="#tab-how-work-1,#tab-how-work-2,#tab-how-work-3,#tab-how-work-4,#tab-how-work-5">
+                                        <img src="img/ic_XLM@2x.png" alt="XLM icon">Stellar</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
 
-                    <div class="row">
-                        <div class="col-md-6">
+                    <div id="content-how-work-1" class="row">
+                        <div id="tab-how-work-1" class="col-md-6">
                             <div class="info-block">
                                 <img src="img/ic_scontract.svg" alt="">
                                 <span>No crowdfunding smart-contract or require significant technical expertise to write and deploy them</span>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div id="tab-how-work-2" class="col-md-6">
                             <div class="info-block">
                                 <img src="img/ic_plugin.svg" alt="">
                                 <span>Not integral — someone still needs some extra add-ons as back-end to manage other currency contributions or fiat gateways and to integrate all together</span>
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
+                        <div id="tab-how-work-3" class="col-md-6">
                             <div class="info-block">
                                 <img src="img/ic_diamond.svg" alt="">
                                 <span>Expensive — need <strong>ICO experts/advisors</strong> to make a smart contract/payment module/integration</span>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div id="tab-how-work-4" class="col-md-6">
                             <div class="info-block">
                                 <img src="img/ic_multicurr.svg" alt="">
                                 <span>No multicurrency including fiat support (networks/platforms support one-two & almost never fiat)</span>
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
+                        <div id="tab-how-work-5" class="col-md-6">
                             <div class="info-block">
                                 <img src="img/ic_tkexchange.svg" alt="">
                                 <span>No token exchange listing (during crowdfunding and after ICO listings)</span>
@@ -2301,7 +572,7 @@
                     </div>
                     <div class="col-md-6 hidden-md hidden-lg">
                         <div class="image-block">
-                            <img src="img/img_howitworks@2x.png" alt="">
+                            <img class="mob" src="img/img_howitworks_m@2x.png" alt="">
                         </div>
                     </div>
                     <div class="col-md-6 text-right">
@@ -2357,37 +628,76 @@
     </div>
 </section>
 
-
 <section id="network" class="network">
     <div class="container">
         <div id="circle-slide" class="row">
             <div class="col-md-2 col-md-offset-1">
-                <div class="circle-block active">
+                <div class="circle-block active" data-target="#block-net-1">
                     <img src="img/ic_decezd.svg" alt="">
                 </div>
             </div>
             <div class="col-md-2">
-                <div class="circle-block">
+                <div class="circle-block" data-target="#block-net-2">
                     <img src="img/ic_montranfer.svg" alt="">
                 </div>
             </div>
             <div class="col-md-2">
-                <div class="circle-block">
+                <div class="circle-block" data-target="#block-net-3">
                     <img src="img/ic_exchange.svg" alt="">
                 </div>
             </div>
             <div class="col-md-2">
-                <div class="circle-block">
+                <div class="circle-block" data-target="#block-net-4">
                     <img src="img/ic_tokenslae.svg" alt="">
                 </div>
             </div>
             <div class="col-md-2">
-                <div class="circle-block">
+                <div class="circle-block" data-target="#block-net-5">
                     <img src="img/ic_prospectus.svg" alt="">
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div id="block-net-1" class="row circle-content active">
+            <div class="col-md-10 col-md-offset-1">
+                <h2 class="title">
+                    Decentralized Network
+                </h2>
+                <p class="text">
+                    A decentralized network consists of peers that can run independently of each other. The power to transmit information is distributed among a network of servers, instead of being driven from one primary source. The NCRYPTO network does not depend on any single entity. The idea is to have as many independent servers participate in the NCRYPTO network as possible, so that the network will still run successfully even if some servers fail.
+                </p>
+            </div>
+        </div>
+        <div id="block-net-2" class="row circle-content">
+            <div class="col-md-10 col-md-offset-1">
+                <h2 class="title">
+                    Decentralized Network
+                </h2>
+                <p class="text">
+                    A decentralized network consists of peers that can run independently of each other. The power to transmit information is distributed among a network of servers, instead of being driven from one primary source. The NCRYPTO network does not depend on any single entity. The idea is to have as many independent servers participate in the NCRYPTO network as possible, so that the network will still run successfully even if some servers fail.
+                </p>
+            </div>
+        </div>
+        <div id="block-net-3" class="row circle-content">
+            <div class="col-md-10 col-md-offset-1">
+                <h2 class="title">
+                    Decentralized Network
+                </h2>
+                <p class="text">
+                    A decentralized network consists of peers that can run independently of each other. The power to transmit information is distributed among a network of servers, instead of being driven from one primary source. The NCRYPTO network does not depend on any single entity. The idea is to have as many independent servers participate in the NCRYPTO network as possible, so that the network will still run successfully even if some servers fail.
+                </p>
+            </div>
+        </div>
+        <div id="block-net-4" class="row circle-content">
+            <div class="col-md-10 col-md-offset-1">
+                <h2 class="title">
+                    Decentralized Network
+                </h2>
+                <p class="text">
+                    A decentralized network consists of peers that can run independently of each other. The power to transmit information is distributed among a network of servers, instead of being driven from one primary source. The NCRYPTO network does not depend on any single entity. The idea is to have as many independent servers participate in the NCRYPTO network as possible, so that the network will still run successfully even if some servers fail.
+                </p>
+            </div>
+        </div>
+        <div id="block-net-5" class="row circle-content">
             <div class="col-md-10 col-md-offset-1">
                 <h2 class="title">
                     Decentralized Network
@@ -2400,6 +710,79 @@
     </div>
 </section>
 
+<section id="how-it-works-cases" class="how-it-works how-it-works-cases">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-7 col-lg-6">
+                        <h2 class="title">How It Works</h2>
+                        <h3 class="sub-title">
+                            Use cases
+                        </h3>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="nav-works-wrap-cases">
+                                    <ul id="how-it-cases-adaptive-tabs" class="nav nav-pills nav-works-cases">
+                                        <li class="active">
+                                            <a data-img-bg="http://ncrypto.infinitum.tech/landing/img/img_cases01.jpg"
+                                               data-target="#how-it-cases-tab-content-1">Fundraising</a>
+                                        </li>
+                                        <li>
+                                            <a data-img-bg="http://ncrypto.infinitum.tech/landing/img/img_cases02.jpg"
+                                               data-target="#how-it-cases-tab-content-2">Loyalty Programm</a>
+                                        </li>
+                                        <li>
+                                            <a data-img-bg="http://ncrypto.infinitum.tech/landing/img/img_cases03.jpg"
+                                               data-target="#how-it-cases-tab-content-3">Money Transfer</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="how-cases-tab-content" id="how-it-cases-tab-content-1">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p class="descript">
+                                        Technically, Ncrypto is a multicurrency tokenization platform, or integrated ledger/exchange/payment system that lets businesses and individuals easily secure, and cost effectively issue/exchange/trade crypto assets, both in Ncrypto`s and in external exchanges.
+                                    </p>
+                                    <p class="descript">
+                                        Ncrypto Token is a utility token for working in the system. Ncrypto tokens are a built-in network resource and work similarly to bitcoin. That is, it is a fully-fledged crypto currency, which allows you to operate digital assets without restrictions. The sale of Ncrypto tokens is conducted to finance the pre-final part of the Ncrypto project development: marketing and promotion of the platform.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="how-cases-tab-content" id="how-it-cases-tab-content-2">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p class="descript">
+                                        Technically, Ncrypto is a multicurrency tokenization platform, or integrated ledger/exchange/payment system that lets businesses and individuals easily secure, and cost effectively issue/exchange/trade crypto assets, both in Ncrypto`s and in external exchanges.
+                                    </p>
+                                    <p class="descript">
+                                        Ncrypto Token is a utility token for working in the system. Ncrypto tokens are a built-in network resource and work similarly to bitcoin. That is, it is a fully-fledged crypto currency, which allows you to operate digital assets without restrictions. The sale of Ncrypto tokens is conducted to finance the pre-final part of the Ncrypto project development: marketing and promotion of the platform.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="how-cases-tab-content" id="how-it-cases-tab-content-3">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p class="descript">
+                                        Technically, Ncrypto is a multicurrency tokenization platform, or integrated ledger/exchange/payment system that lets businesses and individuals easily secure, and cost effectively issue/exchange/trade crypto assets, both in Ncrypto`s and in external exchanges.
+                                    </p>
+                                    <p class="descript">
+                                        Ncrypto Token is a utility token for working in the system. Ncrypto tokens are a built-in network resource and work similarly to bitcoin. That is, it is a fully-fledged crypto currency, which allows you to operate digital assets without restrictions. The sale of Ncrypto tokens is conducted to finance the pre-final part of the Ncrypto project development: marketing and promotion of the platform.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section id="how-it-works-4" class="how-it-works how-it-works-4">
     <div class="container">
         <div class="row">
@@ -2407,28 +790,54 @@
                 <div class="row">
                     <div class="col-md-6 col-lg-5 col-md-push-6">
                         <h2 class="title">How It Works</h2>
-                        <h3 class="sub-title">
-                            All-in-One: Wallet, Exchange, Token Sales and Fiat Exchange
-                        </h3>
-                        <div class="row">
-                            <div class="col-md-8">
-                                <p class="descript">
-                                    Technically, Ncrypto is a multicurrency tokenization platform, or integrated ledger/exchange/payment system that lets businesses and individuals easily secure, and cost effectively issue/exchange/trade crypto assets, both in Ncrypto`s and in external exchanges.
-                                </p>
+                        <div class="how-4-tab-content" id="how-it-4-tab-content-1">
+                            <h3 class="sub-title">
+                                All-in-One: Wallet, Exchange, Token Sales and Fiat Exchange
+                            </h3>
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <p class="descript">
+                                        Technically, Ncrypto is a multicurrency tokenization platform, or integrated ledger/exchange/payment system that lets businesses and individuals easily secure, and cost effectively issue/exchange/trade crypto assets, both in Ncrypto`s and in external exchanges.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="how-4-tab-content" id="how-it-4-tab-content-2">
+                            <h3 class="sub-title">
+                                All-in-One: Wallet, Exchange, Token Sales and Fiat Exchange
+                            </h3>
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <p class="descript">
+                                        Technically, Ncrypto is a multicurrency tokenization platform, or integrated ledger/exchange/payment system that lets businesses and individuals easily secure, and cost effectively issue/exchange/trade crypto assets, both in Ncrypto`s and in external exchanges.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="how-4-tab-content" id="how-it-4-tab-content-3">
+                            <h3 class="sub-title">
+                                All-in-One: Wallet, Exchange, Token Sales and Fiat Exchange
+                            </h3>
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <p class="descript">
+                                        Technically, Ncrypto is a multicurrency tokenization platform, or integrated ledger/exchange/payment system that lets businesses and individuals easily secure, and cost effectively issue/exchange/trade crypto assets, both in Ncrypto`s and in external exchanges.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="nav-works-wrap-4">
-                                    <ul class="nav nav-pills nav-works-4">
+                                    <ul id="how-it-4-adaptive-tabs" class="nav nav-pills nav-works-4">
                                         <li class="active">
-                                            <a href="#">Token Prospectus</a>
+                                            <a data-img="img/img_ip_screen01@2x.png" data-target="#how-it-4-tab-content-1">Token Prospectus</a>
                                         </li>
                                         <li>
-                                            <a href="#">Campaign</a>
+                                            <a data-img="img/img_mbwallet01@2x.png" data-target="#how-it-4-tab-content-2">Campaign</a>
                                         </li>
                                         <li>
-                                            <a href="#">Contribute</a>
+                                            <a data-img="img/img_ip_screen01@2x.png" data-target="#how-it-4-tab-content-3">Contribute</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -2437,7 +846,7 @@
                     </div>
                     <div class="col-md-4 col-md-pull-5 col-lg-pull-4 col-xs-8 col-xs-offset-2 col-md-offset-0">
                         <div class="image-block">
-                            <img src="img/img_ip_screen01@2x.png" alt="">
+                            <img id="how-4-tab-img" src="img/img_ip_screen01@2x.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -2833,7 +1242,7 @@
                                 </div>
                                 <div class="link">
                                     <a href="">
-                                        <img src="img/ic_linkedin.svg" alt="">
+                                        <img src="img/ic_linkedin_white.svg" alt="">
                                     </a>
                                 </div>
                             </div>
@@ -2852,7 +1261,7 @@
                                 </div>
                                 <div class="link">
                                     <a href="">
-                                        <img src="img/ic_linkedin.svg" alt="">
+                                        <img src="img/ic_linkedin_bk.svg" alt="">
                                     </a>
                                 </div>
                             </div>
@@ -2871,7 +1280,7 @@
                                 </div>
                                 <div class="link">
                                     <a href="">
-                                        <img src="img/ic_linkedin.svg" alt="">
+                                        <img src="img/ic_linkedin_bk.svg" alt="">
                                     </a>
                                 </div>
                             </div>
@@ -2986,7 +1395,7 @@
     <div class="bg-canvas">
         <div id="particles-js"></div>
     </div>
-    <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
     <script>
         window.addEventListener('load', function () {
             particlesJS("particles-js", {"particles":{"number":{"value":10,"density":{"enable":true,"value_area":868.0624057955}},"color":{"value":["#7b47c2","#89cb3e","#f9b047","#7cc0b3"]},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":false,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":11.83721462448409,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":false,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":6,"direction":"none","random":true,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":false,"mode":"repulse"},"onclick":{"enable":false,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":311.6883116883117,"size":40,"duration":2.237762237762238,"opacity":0.9270729270729271,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});var count_particles, update;count_particles = document.querySelector('.js-count-particles'); update = function() {   requestAnimationFrame(update); }; requestAnimationFrame(update);
@@ -2996,7 +1405,6 @@
 
 
 </section>
-
 
 
 <footer class="footer">
@@ -3047,6 +1455,8 @@
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
 <script src="js/bootstrap.min.js"></script>
 <script src="slick/slick.js"></script>
 <script src="js/main.js"></script>

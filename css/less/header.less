@@ -126,12 +126,12 @@
             width: 35px;
           }
         }
-        a.scroll {
+        a.scroll,a.nav-btn {
           @media(max-width:991px) {
             margin-top: 10px;
             margin-bottom: 10px;
           }
-          color: @color-1;
+          color: fade(@color-1,60%);
           font-family: @font-1;
           font-size: 16px;
           font-weight: 500;
@@ -143,9 +143,17 @@
           vertical-align: middle;
           display: inline-block;
           border-radius: 4px;
-          &.active,&:hover {
-            background: @color-bg;
+          &:hover {
+            color: @color-1;
           }
+          &.active {
+            background: @color-bg;
+            color: @color-1;
+          }
+        }
+        a.nav-btn {
+          color: @color-1;
+          text-decoration: underline;
         }
       }
     }
